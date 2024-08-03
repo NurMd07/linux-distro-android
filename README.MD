@@ -2,13 +2,13 @@
 
 ### Requirements:
 
-  1.Rooted Device
+  1. Rooted Device
 
-  2.Termux (from fdroid store)
+  2. Termux (from fdroid store)
 
-  3.Busybox ( Prefer Magisk module - 'Busybox for android NDK' )
+  3. Busybox ( Prefer Magisk module - 'Busybox for android NDK' )
 
-  4.git - installed in termux to clone repository (pkg install git)
+  4. git - installed in termux to clone repository (pkg install git)
 
 ### Steps: 
 
