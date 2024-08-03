@@ -1,9 +1,13 @@
 ## Install any debian based distro on rooted android
 
 ### Requirements:
+
   1.Rooted Device
+
   2.Termux (from fdroid store)
+
   3.Busybox ( Prefer Magisk module - 'Busybox for android NDK' )
+
   4.git - installed in termux to clone repository (pkg install git)
 
 ### Steps: 
@@ -36,7 +40,8 @@ After providing info it will automatically install distro to your specified
  directory e.g /data/local/tmp/ubuntu
 
 It will add startup script to your shell automatically,
-   just run 
+
+6. Start your distro 
 ```
 start_provided-distro-dir-name
 ``` 
