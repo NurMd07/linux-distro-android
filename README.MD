@@ -14,12 +14,12 @@
 
 1. Clone repository in termux 
 ```
-git clone 'https://github.com/NurMd07/linux-distros-android'
+git clone https://github.com/NurMd07/linux-distro-android.git
 ```
 
 2. Change dir to linux-distros-android
 ```
-cd linux-distros-android
+cd linux-distro-android
 ```
 
 3. Giving execute permissions to 'install.sh' script
