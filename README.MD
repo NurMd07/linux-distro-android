@@ -32,20 +32,22 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
-5. Give required paramaters e.g which distro to install url base image in formate tar.gz , 
- Search distro:version base image to get base image download url 
- e.g https://cdimage.ubuntu.com/ubuntu-base/releases/jammy/release/ubuntu-base-22.04-base-arm64.tar.gz
+5. Give which distro to install base image url in formate tar.gz , 
+ Search ' DistroName:Version base image ' to get base image download url 
+ e.g https://cdimage.ubuntu.com/ubuntu-base/releases/jammy/release/ubuntu-base-22.04-base-arm64.tar.gz (for ubuntu 22.04)
  
-After providing info it will automatically install distro to your specified 
+! After providing info it will automatically install distro to your specified 
  directory e.g /data/local/tmp/ubuntu
 
 It will add startup script to your shell automatically,
 
-6. Start your distro 
+6. Start your distro (replace after _ part with your specified installed foldername)
 ```
-start_provided-distro-dir-name
+start_foldername
 ``` 
-e.g start_ubuntu for (/data/local/tmp/ubuntu)
+e.g start_ubuntu for /data/local/tmp/ubuntu 
+
+(You can check foldername in /data/local/tmp or in .bashrc or .zshrc ending line)
 
 ### Done.
 
