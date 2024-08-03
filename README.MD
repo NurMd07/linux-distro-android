@@ -36,7 +36,7 @@ chmod +x ./install.sh
  Search ' DistroName:Version base image ' to get base image download url 
  e.g https://cdimage.ubuntu.com/ubuntu-base/releases/jammy/release/ubuntu-base-22.04-base-arm64.tar.gz (for ubuntu 22.04)
  
-! After providing info it will automatically install distro to your specified 
+After providing info it will automatically install distro to your specified 
  directory e.g /data/local/tmp/ubuntu
 
 It will add startup script to your shell automatically,
