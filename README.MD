@@ -49,8 +49,6 @@ e.g start_ubuntu for /data/local/tmp/ubuntu
 
 (You can check foldername in /data/local/tmp or in .bashrc or .zshrc ending line)
 
-### Done.
-
 ### Uninstall: 
 
   currently uninstall script not added , 
