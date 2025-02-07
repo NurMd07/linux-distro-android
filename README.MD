@@ -51,4 +51,11 @@ e.g start_ubuntu for /data/local/tmp/ubuntu
 
 ### Done.
 
+### Uninstall: 
+
+  currently uninstall script not added , 
+
+You can menually remove dir from /data/local/tmp/destrofoldername
+and remove single line alias from .bashrc or .zshrc last line.
+
 
