@@ -1,5 +1,7 @@
 #!/bin/sh
 
+su -c "setenforce 0"
+
 echo "Installing tsu pakckage if not present."
 
 pkg update 
