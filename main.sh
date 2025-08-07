@@ -1,5 +1,7 @@
 #!/bin/sh
 
+su -c "setenforce 0"
+
 clear
 
 if [ "$(whoami)" != "root" ]; then
@@ -202,6 +204,8 @@ setupstartingscript() {
     scriptname="/data/local/tmp/start_$foldername.sh"
     cat <<EOF > "$scriptname"
 #!/bin/sh
+
+su -c "setenforce 0"
 
 UBUNTUPATH="$UBUNTUPATH"
 USERNAME="$username"
